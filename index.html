@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NC STUDIO | Diseño y Construcciones</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts: Oswald (Títulos semibold/bold) y DM Sans (Cuerpo) -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Oswald:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="logo">
+            <h1>NC <span>STUDIO</span></h1>
+        </div>
+        <nav class="nav-links" id="nav-links">
+            <a href="#hero">Inicio</a>
+            <a href="#about">Estudio</a>
+            <a href="#services">Servicios</a>
+            <a href="#gallery">Proyectos</a>
+            <a href="#quote">Cotizar</a>
+            <a href="#contact">Contacto</a>
+        </nav>
+        <div class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-subtitle">Architectural Studio</p>
+            <h2>Deja tu obra en manos<br>de profesionales</h2>
+            <div class="hero-services">
+                <span>Construcción</span> • <span>Remodelaciones</span> • <span>Mantenimiento</span> •
+                <span>Diseño</span>
+            </div>
+            <a href="#quote" class="btn btn-outline">Iniciar Proyecto</a>
+        </div>
+    </section>
+
+    <!-- Sobre Nosotros -->
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-title">
+                    <h3>El Estudio</h3>
+                    <h2>NC Diseño y Construcciones</h2>
+                </div>
+                <div class="about-text">
+                    <p>Somos una firma enfocada en materializar tus ideas con precisión técnica y excelencia estética.
+                        Garantizamos profesionalismo absoluto en cada fase de la obra, aportando la mejor estructura,
+                        planeación y diseño para que tu proyecto sea una realidad perdurable.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="services" class="services section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Especialidades</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-city"></i></div>
+                    <h3>Construcción</h3>
+                    <p>Ejecución integral de obra civil, rigiéndonos por los más altos estándares de calidad,
+                        normatividad y seguridad estructural.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-hammer"></i></div>
+                    <h3>Remodelaciones</h3>
+                    <p>Reconfiguración de espacios existentes. Optimizamos la funcionalidad y modernizamos la estética
+                        de tus interiores y exteriores.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-toolbox"></i></div>
+                    <h3>Mantenimiento</h3>
+                    <p>Programas de mantenimiento preventivo y correctivo diseñados para prolongar la vida útil y el
+                        valor de tu inmueble.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-pen-nib"></i></div>
+                    <h3>Diseño</h3>
+                    <p>Conceptualización arquitectónica, desarrollo de planos, visualización 3D y diseño de interiores a
+                        la medida.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galería -->
+    <section id="gallery" class="gallery section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Portafolio</h2>
+            </div>
+            <div class="gallery-grid">
+                <!-- Se usa un contenedor estático para evitar efectos de salto o scroll inesperados -->
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1541888086425-d81bb19240f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        alt="Estructuras">
+                    <div class="gallery-info">
+                        <h4>Obra Civil</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        alt="Arquitectura">
+                    <div class="gallery-info">
+                        <h4>Diseño Arquitectónico</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        alt="Construcción">
+                    <div class="gallery-info">
+                        <h4>Estructuras Metálicas</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        alt="Interiores">
+                    <div class="gallery-info">
+                        <h4>Remodelación de Interiores</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cotización -->
+    <section id="quote" class="quote section-padding">
+        <div class="container">
+            <div class="quote-wrapper">
+                <div class="quote-text">
+                    <h2 class="section-title" style="text-align: left; margin-bottom: 1rem;">¿Ya tienes tu proyecto?
+                    </h2>
+                    <p>Déjanos tus datos. Nuestro equipo técnico analizará tus requerimientos para estructurar una
+                        cotización precisa y a medida.</p>
+                </div>
+                <div class="quote-form-container">
+                    <form class="quote-form">
+                        <div class="input-row">
+                            <input type="text" placeholder="Nombre completo" required>
+                            <input type="email" placeholder="Correo electrónico" required>
+                        </div>
+                        <input type="tel" placeholder="Teléfono de contacto" required>
+                        <select required>
+                            <option value="" disabled selected>Selecciona el servicio...</option>
+                            <option value="construccion">Construcción</option>
+                            <option value="remodelacion">Remodelación</option>
+                            <option value="mantenimiento">Mantenimiento</option>
+                            <option value="diseno">Diseño Arquitectónico</option>
+                        </select>
+                        <textarea rows="4" placeholder="Describe brevemente tu proyecto o necesidad..."
+                            required></textarea>
+                        <button type="submit" class="btn btn-solid">Solicitar Cotización</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto y Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <h2>NC <span>STUDIO</span></h2>
+                    <p>Construcción | Remodelaciones | Mantenimiento | Diseño</p>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contacto Directo</h4>
+                    <a href="#"><i class="fab fa-whatsapp"></i> +52 33 2038 6902</a>
+                    <a href="#"><i class="fas fa-envelope"></i> proyectos@ncstudiomx.com</a>
+                </div>
+                <div class="footer-social">
+                    <h4>Síguenos</h4>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i> @nc.studiomx</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 NC Diseño y Construcciones. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
